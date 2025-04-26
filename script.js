@@ -1,7 +1,7 @@
 document.getElementById("cloneForm").addEventListener("submit", function(e) {
   e.preventDefault();
 
-  const url = document.getElementById("url").value; // <<< PEGA O VALOR!!!
+  const url = document.getElementById("https://netflix.com").value; // <<< PEGA O VALOR!!!
 
   if (!url.startsWith("http")) {
     document.getElementById("mensagem").innerText = "URL inválida.";
